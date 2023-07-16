@@ -1,0 +1,325 @@
+@charset "UTF-8";
+.container-my {
+   width: 1300px;
+   margin: 0 auto;
+}
+.userInfo-my {
+   height: 350px;
+   background: #F7F7F7;
+   display: flex;
+   align-items: center;
+}
+.userInfo-my p {
+   margin: 0;
+}
+.userInfoBox-my {
+   margin: 0 auto;
+   width: 1300px;
+   height: 240px;
+   display: flex;
+    justify-content: space-between;
+}
+.userImg-my {
+    display: flex;
+    width: 410px;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.stamp-my,
+.coupon-my {
+   width: 310px;
+   background: #fff;
+   padding: 40px;
+   position: relative;
+}
+.vip-my {
+   width: 250px;
+   background: #fff;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   padding: 30px;
+   position: relative;
+}
+.userImgTop-my {
+   display: flex;
+   align-items: center;
+   padding-bottom: 20px;
+}
+.userImgScale-my {
+   width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.userName-my {
+   font-size: 22px;
+   margin-left: 20px;
+}
+.userName-my span {
+   font-weight: bold;
+   font-family: "TheJamsil";
+}
+.userBtn-my a {
+   display: inline-block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.userBtn-my a.updatePw-my {
+    border: 1px solid #58A3BC;
+    background: #fff;
+    color: #58A3BC;
+}
+.userBtn-my a.updateUser-my {
+    background: #58A3BC;
+    color: #fff;
+}
+.Title-my {
+   display: flex;
+    align-items: center;
+}
+.Title-my i {
+   margin-left: 4px;
+   font-size: 26px;
+}
+.Count-my {
+   font-size: 28px;
+   font-weight: 900;
+}
+.stamp-my p, 
+.coupon-my p {
+   font-size: 28px;
+   color: #58A3BC;
+   margin-top: 8px;
+}
+.Count-my {
+   font-size: 36px;   
+   font-weight: bold;
+}
+.userInfo-my h2 {
+   margin: 0;
+}
+.stampImg-my {
+   position: absolute;
+    right: 25px;
+    bottom: 52px;
+    rotate: 30deg;
+    scale: 120%;
+}
+.couponImg-my {
+   position: absolute;
+    right: 25px;
+    bottom: 52px;
+    rotate: -30deg;
+    scale: 110%;
+}
+.vipImg-my {
+   scale: 78%;
+   margin-left: -18px;
+}
+.point-my {
+   font-size: 40px;
+   font-weight: 900;
+}
+.vip-my p {
+   color: #58A3BC;
+    font-size: 32px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
+
+/***** STAMP *****/
+.couponBox-my {
+   height: 330px;
+   background: #F7F7F7;
+   border-radius: 20px;
+   margin: 50px 0;
+}
+.stampTitle-my {
+   font-size: 30px;
+   font-weight: 900;
+   margin: 0;
+    padding: 27px 40px;
+}
+.bubble-my,
+.bubbleMono-my {
+   display: flex;
+    flex-wrap: nowrap;
+    width: 720px;
+    justify-content: space-around;
+    margin: 12px auto 0;
+}
+.banner-my {
+   height: 200px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   margin: 30px 0 50px;
+}
+.reviewTitle-my {
+   font-size: 30px;
+   font-weight: 900;
+}
+.bubbleImg-my {
+   width: 145px;
+}
+
+
+/* customer level */
+
+.customer-level{
+	height: 250px;
+	background: #F7F7F7;
+	border-radius: 20px;
+}
+
+.customer-level>p{
+	font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 27px 40px;
+}
+
+.level-flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+
+.level-flex-col{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.level-flex-col>p{
+	line-height: 30px;
+}
+
+
+.mt80{
+	margin-top: 80px;
+}
+
+.ml10{
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.ml20{
+	margin-left: 20px;
+}
+
+.ml100{
+	margin-left: 100px;
+}
+
+.h100{
+	height: 100px;
+}
+.font14{
+	font-size: 14px;
+}
+
+.size18{
+	font-size: 18px;
+	margin-top: -15px;
+}
+
+.item-center{
+	align-items: center;
+	margin-right: 10px;
+}
+
+.color-blue{
+	color: #58A3BC;
+	font-weight: bold;
+}
+
+
+
+/*hover시 안내문 나옴 info-pop-up*/
+.info-container {
+  position: absolute;
+  top: 360px;
+  right: 200px;
+  display: none;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-container {
+  flex-shrink: 1;
+  height: 220px;
+  width: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+  position: relative;
+}
+
+.message-container::before {
+    content: "";
+    top: -32px;
+    right: 90px;
+    border: 1em solid transparent;
+    border-bottom: 1em solid #000;
+    z-index: 0;
+    position: absolute;
+}
+
+.message-box {
+  position: relative;
+  width: 440px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  border-radius: 15px;
+  padding: 1.8em;
+}
+
+.message-box p {
+  font-size: 18px;
+  color: white;
+}
+
+.message-box p:first-child {
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+}
+.message-box p:first-child>a {
+ 	color: #fff;
+}
+.message-box p:last-child {
+ 	margin-top: 20px;
+	font-size: 14px;
+}
+
+.info-pop-up:hover ~ .info-container{
+	display: block;
+}
+
+.info-container:hover{
+	display: block;
+}
+
+#info-box{
+	font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
