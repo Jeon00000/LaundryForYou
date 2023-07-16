@@ -66,8 +66,10 @@ JSP + Servlet기반으로 한 세탁 서비스 웹 사이트
   - <http://3.38.94.79:8080/LaundryForYou/main/main.jsp>
   - 테스트 계정 ID: test01 PW: 1234 / 관리자 계정 ID: admin PW: admin
 - 포트폴리오 <notion>
+노션으로 Laundry For You 자세하게 보러가기! 
+🚩 https://www.notion.so/Laundry-For-You-8cbdf126640f45f080556303643e8ffd
 ![main](https://github.com/K-DoYeon/LaundryForYou/assets/124326065/246f5de4-79ea-4a23-8c86-b6ae4b8af8c9)
-https://www.notion.so/Laundry-For-You-8cbdf126640f45f080556303643e8ffd
+
 
 <br>
 
